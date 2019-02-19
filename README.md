@@ -1,8 +1,6 @@
 # kafka-listener
 
-## This project is a listener for a Kafka Topic, that sends FormStack submission data to a Database:  
-
-https://github.com/rafaelmarinsGL/kafka-listener 
+This project is a listener for a Kafka Topic, that sends FormStack submission data to a Database:  
 
 ## This project depends on the configuration, of the following project:  
 https://github.com/rafaelmarinsGL/formstack-kafka  
