@@ -12,7 +12,7 @@ public class KafkaConsumer {
     @Autowired
     FormSubmissionService formSubmissionService;
 
-    @KafkaListener(topics = "test")
+    @KafkaListener(topics = "Kafka_Example")
     public void consume(String message) {
         formSubmissionService.save(new FormSubmission(message));
         System.out.println("Consumed message: " + message);
